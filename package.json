@@ -4,16 +4,28 @@
   "description": "migrating metadata between bahmni and avni and integration database",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha --require babel-core/register '**/*.test.js'"
+  },
+  "type": "module",
+  "dependencies": {
+    "mysql2": "2.2.5",
+    "ssh2": "0.8.9"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avni-bahmni-integration/metadata-migrator.git"
   },
-  "author": "“Vivek <“petmongrels@gmail.com”> (http://github.com/petmongrels)",
   "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/avni-bahmni-integration/metadata-migrator/issues"
   },
-  "homepage": "https://github.com/avni-bahmni-integration/metadata-migrator#readme"
+  "homepage": "https://github.com/avni-bahmni-integration/metadata-migrator#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1"
+  }
 }
