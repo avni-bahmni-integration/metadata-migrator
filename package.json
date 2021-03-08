@@ -1,0 +1,19 @@
+{
+  "name": "metadata-migrator",
+  "version": "1.0.0",
+  "description": "migrating metadata between bahmni and avni and integration database",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avni-bahmni-integration/metadata-migrator.git"
+  },
+  "author": "“Vivek <“petmongrels@gmail.com”> (http://github.com/petmongrels)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/avni-bahmni-integration/metadata-migrator/issues"
+  },
+  "homepage": "https://github.com/avni-bahmni-integration/metadata-migrator#readme"
+}
